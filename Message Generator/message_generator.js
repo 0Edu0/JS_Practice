@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const phrases = Math.floor(Math.random() * 2) +1;
 
 const be_phrases_array = ["Successful", "Victorious", "Resilient", "Strong", "Unstoppable", "Courageous", "Amazing", "Incredible", "Empowered", "Triumphant"];
@@ -12,5 +13,4 @@ const random = phrases => {
         console.log(`You will have ${have_phrases_array[randomIndex]}`)
     }
 } 
-
 random(phrases);
